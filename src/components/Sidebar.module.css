@@ -1,0 +1,47 @@
+.sidebar {
+  height: calc(100vh - 90px) !important;
+  width: 21%;
+  /* padding-top: 30px; */
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 4px -4px 10px 0px rgba(0, 0, 0, 0.05),
+    0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+
+.sidebar ul li {
+  border-radius: 4px;
+  background: #4f2d7f;
+  width: 95%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sidebar ul li img{
+    margin-left: 5%;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: url("/public/font/GT-Walsheim-Pro-Medium.otf");
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  margin-left: 7%;
+}

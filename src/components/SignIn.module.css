@@ -1,0 +1,87 @@
+.signin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: calc(100vh - 65px)!important; */
+  height: 100vh;
+  padding-left: 0.7%;
+  padding-right: 0.7%;
+  width: auto;
+  background: url("../../public/signin-background1.jpg");
+  background-size: cover;
+}
+
+.signin main {
+  /* fill: rgba(79, 45, 127, 0.40); */
+  background-color: rgba(79, 45, 127, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  height: 50%;
+  border-radius: 5px;
+  padding: 2.5rem;
+  margin-left: 45%;
+  padding-top: 0;
+}
+
+.signin main img{
+  width: 20rem;
+}
+
+.signin main h6 {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  /* font-family: Inter; */
+  font-family: "GT-Walsheim-Pro-Regular";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 41px; /* 120.588% */
+  letter-spacing: 0.374px;
+  margin: 0;
+  margin-top: -2rem;
+}
+
+.signin main input {
+  border-radius: 5px;
+  background: #f9f5ff;
+  color: #747474;
+  font-feature-settings: "clig" off, "liga" off;
+  /* font-family: GT Walsheim Pro; */
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 80%;
+  font-family: "GT-Walsheim-Pro-Regular";
+  /* height: 2.5rem; */
+}
+
+.signin main button {
+  border-radius: 5px;
+  background: #4f2d7f;
+  color: var(--White, #fff);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* H7 - 18SB */
+  font-family: "GT-Walsheim-Pro-Regular";
+  /* font-family: Montserrat; */
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+  border: none;
+  outline: none;
+  width: 84%;
+  padding: 10px;
+  cursor: pointer;
+  height: 3rem;
+}
